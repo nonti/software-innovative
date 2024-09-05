@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+.container-contact {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  color: rgb(252, 245, 245);
+  border: none;
+  background-color: #f80707;
+  border-radius: 8px;
+  width: 50%;
+}
+
+button:hover {
+  background-color: #f3e5e5;
+  color: hsl(0, 93%, 49%);
+  cursor: pointer;
+}
+
+button:hover {
+  color: rgb(236, 11, 11);
+  box-shadow: 0 5px 15px rgba(218, 10, 10, 0.979);
+}
+
+table {
+  width: 100%;
+  padding: 10px;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+}
+
+td:first-child {
+  width: 150px;
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  font-size: 18px;
+}
+
+input[type="text"] {
+  max-width: 40ch; /* Limits the input to 40 characters */
+}
+
+textarea {
+  width: 100%;
+  height: 100px; /* Approx. 5 lines high */
+  resize: none; /* Disable resizing */
+}
+
+td[colspan="2"] {
+  text-align: center;
+}
+
+button {
+  width: 150px;
+}
+
+
+

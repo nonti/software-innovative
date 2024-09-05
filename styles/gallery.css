@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #080808;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+}
+
+.social-media-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+/*Gallery link*/
+.filter_links {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter_links ul {
+  position: relative;
+  overflow-x: auto;
+  list-style: none;
+  display: flex;
+  background: #f80202e5;
+  border-radius: 12px;
+}
+
+.active_box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(0px);
+  z-index: 1;
+  width: 120px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.596);
+  border-radius: 12px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.filter_links ul li {
+  width: 120px;
+  z-index: 2;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 8px 0px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.filter_image_container {
+  margin-top: 12px;
+  padding-inline: 20px;
+  max-width: 50%;
+  column-count: 3;
+  column-gap: 0px;
+  margin-left: 470px;
+}
+
+.filter_image_container img {
+  transition: width 0.3s height 0.4s ease-out;
+  width: 100%;
+  padding: 4px;
+  border-radius: 12px;
+}
+
+.image_box {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.5s ease;
+}
+
+.hide_image {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .filter_links {
+    padding-block: 12px;
+    margin-top: 18px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .filter_image_container {
+    margin-top: 12px;
+    padding-inline: 20px;
+    max-width: 100%;
+    column-count: 2;
+    column-gap: 0px;
+  }
+  .active_box {
+    width: 70px;
+  }
+
+  .filter_links ul li {
+    width: 70px;
+    padding: 6px 0px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  .filter_image_container {
+    margin-top: 12px;
+    padding-inline: 20px;
+    max-width: 100%;
+    column-count: 1;
+    column-gap: 0px;
+  }
+  .filter_links {
+    padding-block: 12px;
+    margin-top: 18px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}

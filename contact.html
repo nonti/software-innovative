@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/contact.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">
+        <img src="/pictures/logo-o.png" alt="Logo Image">
+    </div>
+    <div class="hamburger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="contact.html">Contact</a></li>
+       
+    </ul>
+</nav>
+  
+  <div class="container-contact">
+  <table>
+    <!-- 1st Row: Name and Text Field -->
+    <tr>
+      <td>Name:</td>
+      <td><input type="text" name="name" maxlength="40" placeholder="Enter your name"></td>
+    </tr>
+    
+    <!-- 2nd Row: Feedback and Text Area -->
+    <tr>
+      <td>Feedback:</td>
+      <td><textarea name="feedback" cols="40" rows="5" placeholder="Enter your feedback"></textarea></td>
+    </tr>
+
+    <!-- 3rd Row: Submit and Reset Buttons -->
+    <tr>
+      <td colspan="2">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </td>
+    </tr>
+  </table>
+  </div>
+  <footer>
+    <p>&copy; 2024 INNOVATIVE Website. All rights reserved.</p>
+  </footer>
+  <script src="/scripts/script.js"></script>
+</body>
+</html>
