@@ -14,6 +14,7 @@ body {
   padding: 100px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 
@@ -24,13 +25,14 @@ button {
   border: none;
   background-color: #f80707;
   border-radius: 8px;
-  width: 50%;
+  
 }
 
 button:hover {
   background-color: #f3e5e5;
   color: hsl(0, 93%, 49%);
   cursor: pointer;
+  box-shadow: 0 5px 15px rgba(218, 10, 10, 0.979);
 }
 
 button:hover {
@@ -79,4 +81,26 @@ button {
 }
 
 
+@media screen and (max-width: 768px) {
+  .container-contact {
+    padding: 20px;
+  }
 
+  td {
+    text-align: left;
+    font-size: 16px;
+  }
+
+  input[type="text"], textarea {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  td:first-child {
+    width: auto;
+  }
+}

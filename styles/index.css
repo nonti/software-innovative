@@ -469,14 +469,6 @@ form button {
   background: rgb(0, 0, 0, 0.2);
 }
 
-.about {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 25px;
-}
 
 .service {
   display: flex;
@@ -487,93 +479,50 @@ form button {
 }
 
 
-.content-about {
-  background-color: rgba(0, 0, 0, 0.56);
-  border-bottom-left-radius: 16px;
-  border-bottom-right-radius: 16px;
-  border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
-  box-sizing: border-box;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
+.about-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  gap: 1.5rem;
   align-items: center;
-  justify-content: center;
-  max-width: 50%;
-  margin-top: 10px;
-  padding: 20px;
-  margin-bottom: 10px;
-  height: 20vh;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 3rem;
 }
 
-.content-box-about {
-  background-color: rgba(0, 0, 0, 0.56);
-  border-bottom-left-radius: 16px;
-  border-bottom-right-radius: 16px;
-  border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
-  box-sizing: border-box;
-  color: #fff;
-  display: flex;
-  justify-content: space-evenly;
-  max-width: 100%;
-  margin-top: 110px;
-  padding: 20px;
-  margin-bottom: 20px;
-  height: 30vh;
+.about .box{
+  border: none;
 }
 
-.content-box-contact{
-  background-color: rgba(0, 0, 0, 0.56);
-  border-bottom-left-radius: 16px;
-  border-bottom-right-radius: 16px;
-  border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
-  box-sizing: border-box;
-  color: #fff;
-  display: flex;
-  justify-content: space-evenly;
-  max-width: 100%;
-  margin-top: 110px;
-  padding: 20px;
-  margin-bottom: 20px;
-  height: 20vh;
+.about .box h3{
+  padding: 10px 0 7px;
+}
+.contact {
+  padding: 60px 13%;
+  border-top: 1px solid var(--second-color) ; 
 }
 
 .main-contact {
-  display: flex;
-  padding: 0px 15px 0px 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, auto));
+  gap: 2rem;
 }
 
-.main-contact .contact-content{
-  display: inline-block;
-  flex: 1;
-  justify-content: space-evenly;
-}
-
-.contact-content{
-  width: 300px;
-}
-
-.contact-content li {
+.contact li {
+  margin-bottom: 10px;
   list-style: none;
-  padding: 0 10px 10px 0;
-  line-height: 24px;
+  text-align: center;
 }
 
-.contact-content li a {
+.contact-content a {
+  font-size: 16px;
+  color: var(--text-color);
+  transition: var(--transition);
   text-decoration: none;
 }
 
-.contact-content li a:hover {
-  background-color: #0c0b0b;
-  border-radius: 30px;
-}
-
-.hover-title {
-  display: inline;
-  pointer-events: auto;
-  cursor: pointer;
+.contact-content a:hover{
+  color: #0c0b0b;
+  border-radius: 10px;
 }
 
 
@@ -587,5 +536,141 @@ footer {
   bottom: 0;
   width: 100%;
   z-index: 1;
+}
+
+@media only screen and (max-width: 462px) {
+  section {
+    padding: 40px 10%;
+  }
+  .home-content{
+    margin-top: 100px;
+  }
+
+  .home-text{
+    font-size: 40px;
+  }
+
+  .home-text p{
+    font-size: 14px;
+  }
+
+  .home-text h1{
+    font-size: 2.8rem;
+  }
+
+  form{
+    padding: 20px;
+  }
+ 
+  form select, form input[type="number"], form button{
+    padding: 8px;
+    font-size:14px;
+    margin-top: 3px;
+  }
+
+  .table-content {
+    display: block;
+  }
+
+  table {
+    width: 100%;
+    display: block;
+  }
+
+ td {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+ .content-box img {
+    width: 100%;
+    height: auto;
+  }
+.content-box video {
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 1.5rem; /* Adjust font size for mobile */
+  }
+ button {
+    font-size: 1rem; /* Adjust button font size for mobile */
+    padding: 10px 20px;
+  }
+  .home-img {
+    margin-top: 10px;
+  }
+  .home-img img{
+    max-width: 80%;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 60px 13%;
+  }
+  .home-content{
+    margin-top: 100px;
+  }
+
+  .home-text p{
+    font-size: 14px;
+  }
+
+  .home-text h1{
+    font-size: 2.5rem;
+  }
+  form{
+    padding: 15px;
+  }
+  form div{
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+  }
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  form select, form input[type="number"], form button{
+    width: 100%;
+    margin: 5px;
+  }
+
+  .table-content {
+    display: block;
+  }
+
+  table {
+    width: 100%;
+    display: block;
+  }
+
+ td {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+ .content-box img {
+    width: 100%;
+    height: auto;
+  }
+.content-box video {
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 1.5rem; /* Adjust font size for mobile */
+  }
+ button {
+    font-size: 1rem; /* Adjust button font size for mobile */
+    padding: 10px 20px;
+  }
+
 }
 
