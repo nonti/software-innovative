@@ -23,7 +23,7 @@ const carDatabase = {
         mileage: "15,000 km",
         transmission: "Automatic",
         fuel: "Petrol",
-        image: "/pictures/corollasport.png",
+        image: "/assets/images/corollasport.png",
       },
     },
     cross:{
@@ -32,7 +32,7 @@ const carDatabase = {
         mileage: "20,000 km",
         transmission: "Manual",
         fuel: "Diesel",
-        image: "/pictures/toyotacros.png",
+        image: "/assets/images/toyotacros.png",
       }
     },
     camry: {
@@ -41,7 +41,7 @@ const carDatabase = {
         mileage: "10,000 km",
         transmission: "Automatic",
         fuel: "Petrol",
-        image: "/pictures/camrysport.png",
+        image: "/assets/images/camrysport.png",
       },
     },
   },
@@ -52,7 +52,7 @@ const carDatabase = {
         mileage: "5,000 km",
         transmission: "Automatic",
         fuel: "Electric",
-        image: "/pictures/honda civic.png",
+        image: "/assets/images/honda civic.png",
       },
     },
     pilot: {
@@ -61,7 +61,7 @@ const carDatabase = {
         mileage: "5,000 km",
         transmission: "Manual",
         fuel: "Diesel",
-        image: "/pictures/hondapilot.png",
+        image: "/assets/images/hondapilot.png",
       },
     },
     civicsi: {
@@ -70,7 +70,7 @@ const carDatabase = {
         mileage: "5,000 km",
         transmission: "Automatic",
         fuel: "Petrol",
-        image: "/pictures/hondacivicsi.png",
+        image: "/assets/images/hondacivicsi.png",
       },
     },
   },
@@ -81,7 +81,7 @@ const carDatabase = {
         mileage: "2,000 km",
         transmission: "Automatic",
         fuel: "Diesel",
-        image: "/pictures/modelY.png",
+        image: "/assets/images/modelY.png",
       },
     },
     modelS: {
@@ -90,7 +90,7 @@ const carDatabase = {
         mileage: "2,000 km",
         transmission: "Automatic",
         fuel: "Electric",
-        image: "/pictures/models.png",
+        image: "/assets/images/models.png",
       },
     },
     model3: {
@@ -99,7 +99,7 @@ const carDatabase = {
         mileage: "2,000 km",
         transmission: "Automatic",
         fuel: "Petrol",
-        image: "/pictures/model3",
+        image: "/assets/images/model3",
       },
     },
   },
@@ -110,7 +110,7 @@ const carDatabase = {
         mileage: "2,000 km",
         transmission: "Manual",
         fuel: "Diesel",
-        image: "/pictures/maseratisport.png",
+        image: "/assets/images/maseratisport.png",
       },
     },
     quattroporte: {
@@ -119,7 +119,7 @@ const carDatabase = {
         mileage: "2,000 km",
         transmission: "Automatic",
         fuel: "Petrol",
-        image: "/pictures/maseratiqut.png",
+        image: "/assets/images/maseratiqut.png",
       },
     },
     granturismo: {
@@ -128,7 +128,7 @@ const carDatabase = {
         mileage: "2,000 km",
         transmission: "Automatic",
         fuel: "Elecric",
-        image: "/pictures/granturisimo.png",
+        image: "/assets/images/granturisimo.png",
       },
     },
   },
@@ -139,7 +139,7 @@ const carDatabase = {
         mileage: "2,000 km",
         transmission: "Manual",
         fuel: "Diesel",
-        image: "/pictures/posrchespo.png",
+        image: "/assets/images/posrchespo.png",
       },
     },
     911: {
@@ -148,7 +148,7 @@ const carDatabase = {
         mileage: "2,000 km",
         transmission: "Manual",
         fuel: "Diesel",
-        image: "/pictures/posrchespo.png",
+        image: "/assets/images/posrchespo.png",
       },
     },
     taycan: {
@@ -157,7 +157,7 @@ const carDatabase = {
         mileage: "2,000 km",
         transmission: "Manual",
         fuel: "Diesel",
-        image: "/pictures/posrchespo.png",
+        image: "/assets/images/posrchespo.png",
       },
     },
   },
@@ -168,7 +168,7 @@ const carDatabase = {
         mileage: "2,000 km",
         transmission: "Manual",
         fuel: "Diesel",
-        image: "/pictures/amg_c63.png.png",
+        image: "/assets/images/amg_c63.png.png",
       },
     },
     glc: {
@@ -177,7 +177,7 @@ const carDatabase = {
         mileage: "2,000 km",
         transmission: "Manual",
         fuel: "Diesel",
-        image: "/pictures/glc.png",
+        image: "/assets/images/glc.png",
       },
     },
     glasuv: {
@@ -186,7 +186,7 @@ const carDatabase = {
         mileage: "2,000 km",
         transmission: "Manual",
         fuel: "Diesel",
-        image: "/pictures/gla suv.png",
+        image: "/assets/images/gla suv.png",
       },
     },
   },
@@ -197,7 +197,7 @@ const carDatabase = {
         mileage: "2,000 km",
         transmission: "Manual",
         fuel: "Diesel",
-        image: "/pictures/mseries.png",
+        image: "/assets/images/mseries.png",
       },
     },
     x_series: {
@@ -206,7 +206,7 @@ const carDatabase = {
         mileage: "2,000 km",
         transmission: "Manual",
         fuel: "Diesel",
-        image: "/pictures/xseries.png",
+        image: "/assets/images/xseries.png",
       },
     },
     series_2: {
@@ -215,7 +215,7 @@ const carDatabase = {
         mileage: "2,000 km",
         transmission: "Manual",
         fuel: "Diesel",
-        image: "/pictures/2series.png",
+        image: "/assets/images/2series.png",
       },
     },
   },
@@ -226,7 +226,7 @@ const carDatabase = {
         mileage: "2,000 km",
         transmission: "Manual",
         fuel: "Diesel",
-        image: "/pictures/mercedessport.png",
+        image: "/assets/images/mercedessport.png",
       },
     },
     continental_gt: {
@@ -235,7 +235,7 @@ const carDatabase = {
         mileage: "2,000 km",
         transmission: "Automatic",
         fuel: "Diesel",
-        image: "/pictures/mercedessport.png",
+        image: "/assets/images/mercedessport.png",
       },
     },
     flying_spur: {
@@ -244,7 +244,7 @@ const carDatabase = {
         mileage: "2,000 km",
         transmission: "Automatic",
         fuel: "Diesel",
-        image: "/pictures/mercedessport.png",
+        image: "/assets/images/mercedessport.png",
       },
     },
   },
@@ -304,14 +304,14 @@ function searchCar() {
 
 // Image slider
 const imgUrlsArr = [
-  "/pictures/car1.png",
-  "/pictures/car2.png",
-  "/pictures/bmw3.png",
-  "/pictures/car4.png",
-  "/pictures/toyota2.png",
-  "/pictures/bentley.png",
-  "/pictures/mercedes1.png",
-  "/pictures/honda4.png"
+  "./assets/images/car1.png",
+  "./assets/images/car2.png",
+  "./assets/images/bmw3.png",
+  "./assets/images/car4.png",
+  "./assets/images/toyota2.png",
+  "./assets/images/bentley.png",
+  "./assets/images/mercedes1.png",
+  "./assets/images/honda4.png"
 ];
 
 const articleContainer = document.getElementById("article-container");
